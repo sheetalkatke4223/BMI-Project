@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span id="title">BMI Calculator</span>
+        </div>
+    </header>
+    <div class="container">
+        <form id="bmi">
+            <label for="height">Height:</label>
+            <input id="height" type="number"  step="0.01" placeholder="Enter height in meters">
+
+            <label for="weight">Weight:</label>
+            <input id="weight" type="number" placeholder="Enter weight in kgs">
+
+            <!--<input type="submit" id="calculate" value="Calculate" styleß="padding: .5 1rems"> -->
+            <button id="submit" value="bmi">Calculate</button>
+        </form>
+            <button id="reset">Reset</button>
+
+        <div id="answer">
+            <h2>
+                BMI = <span id="value">0.00</span>
+            </h2>
+
+            <h3>BMI weight ranges</h3>
+            <strong>Less than 18.5</strong> = Underweight <br>
+            <strong>Between 18.5 - 24.9</strong> = Healthy Weight <br>
+            <strong>Between 25 - 29.9</strong> = Overweight <br>
+            <strong>Over 30</strong> = Obese <br>
+        </div>
+    </div>
+</body>
+</html>

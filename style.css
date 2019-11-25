@@ -1,0 +1,63 @@
+body {
+    margin-top: 0;
+    color: #616161;
+    font-family: 'Nunito', sans-serif;
+}
+
+form {
+    width: 100%;
+    clear: both;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#height, #weight {
+    color: grey;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    display: block;
+    width: 96%;
+    margin-bottom: 1rem;
+    padding: .4rem;
+}
+
+#submit {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    padding: .5rem 1rem;
+}
+
+#reset {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    padding: .5rem 1rem;
+}
+
+#submit {
+    float: left;
+}
+
+#reset {
+    float: right;
+}
+
+#answer {
+    background: lightgray;
+    clear: both;
+    margin-top: 5rem;
+    padding: 1rem;
+}
